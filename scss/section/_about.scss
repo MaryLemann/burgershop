@@ -1,0 +1,47 @@
+.about{
+    background:  url(../img/fon/bg2.png) center center no-repeat;
+    background-size: cover;
+}
+.adventeges{
+display: flex;
+&__item {
+
+    width: 300px;
+    text-align: center;
+    margin-left: 20px;
+        }
+&__list{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    width: 100%;
+        }
+    }
+.adventege{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+&__title{
+    color: $dark;
+    font-family: 'lifehackmedium';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 2.88px;
+    margin-top: 43px;
+    margin-bottom: 20px;
+    justify-content: center;
+    line-height: 28px;
+}
+&__description{
+opacity: 0.8;
+color: $dark;
+font-family: 'ubuntulight', Helvetica, sans-serif;
+font-size: 14px;
+font-weight: 300;
+line-height: 24px;
+text-align: center;
+}
+}

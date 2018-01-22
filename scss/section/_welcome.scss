@@ -1,0 +1,84 @@
+
+.welcome{
+    background: url(../img/fon/texture1.png) center center no-repeat;
+    background-size: cover;
+    &__header{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+        }
+    &__content{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 100%;
+        }  
+}
+.nav {
+    display: flex;
+    align-items: center;
+    .button{ 
+        margin-left: 15px;
+    }
+&__list{
+        display: flex;
+        font-family: 'ubuntumedium';
+        text-transform: uppercase;      
+    }
+&__item{
+        flex-direction: column;}
+&__link{
+        font-weight: 700;
+        font-size: 12px;
+        color: #ffffff;
+        padding-left: 36px;
+        margin: 0 auto;
+        text-align: left;
+        letter-spacing: 2px;
+        margin-left: 8px;
+    }        
+}
+.welcome-content{
+    display: flex;
+    align-items: center;
+&_left{
+    width: 50%;
+}
+&_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+}
+&_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15px;
+    width: 50%;
+}
+&__description{
+    font-size: 65px;
+    font-family: 'lifehackmedium';
+    color: #fff;
+    letter-spacing: -0.9px;
+    line-height: 0.923;
+}
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.arrow{
+    bottom: 40px;
+    position: absolute;
+    bottom: 0px;
+    left:50%;
+    text-align: center;
+    transform: translateX(-50%);
+}
